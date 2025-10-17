@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Ejercicio1() {
 
@@ -20,6 +21,7 @@ function Ejercicio1() {
 
     return (
         <div>
+            <Link to="/">Volver atrás</Link>
             <h1>Ejercicio 1 - Cambiador de color de fondo</h1>
             <button onClick={changeBackground}>Cambiar color</button>
         </div>
