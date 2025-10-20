@@ -8,6 +8,7 @@ import Ejercicio5 from './components/Ejercicio5'
 import Ejercicio6 from './components/Ejercicio6'
 import Ejercicio7 from './components/Ejercicio7'
 import Ejercicio8 from './components/Ejercicio8'
+import Ejercicio9 from './components/Ejercicio9'
 import Home from './components/Home'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path='/ejercicio6' element={<Ejercicio6/>}/>
         <Route path='/ejercicio7' element={<Ejercicio7/>}/>
         <Route path='/ejercicio8' element={<Ejercicio8/>}/>
+        <Route path='/ejercicio9' element={<Ejercicio9/>}/>
       </Routes>
     </>
   )
